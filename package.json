@@ -9,7 +9,7 @@
         "node": ">=6.9.1"
     },
     "dependencies": {
-        "informed": "1.9.0"
+        "simple-react-form": "2.1.5"
     },
     "scripts": {
         "start": "node index.js"
