@@ -1,4 +1,8 @@
 var http = require('http');
+import React from 'react'
+import {Form, Field} from 'simple-react-form'
+import DatePicker from './myFields/DatePicker'
+import Text from './myFields/Text'
  
 var server = http.createServer(function(request, response) {
 
@@ -8,10 +12,6 @@ var server = http.createServer(function(request, response) {
 
 var port = process.env.PORT || 1337;
 server.listen(port);
-import React from 'react'
-import {Form, Field} from 'simple-react-form'
-import DatePicker from './myFields/DatePicker'
-import Text from './myFields/Text'
  
 class PostsCreate extends React.Component {
   state = {}
