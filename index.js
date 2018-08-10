@@ -1,13 +1,4 @@
 var http = require('http');
-
-import { Form, Text } from 'informed';
-
-<Form id="simple-form">
-    <label htmlFor="name-field">First name:</label>
-    <Text field="name" id="name-field" />
-    <button type="submit">
-      Submit
-    </button></Form>
  
 var server = http.createServer(function(request, response) {
 
